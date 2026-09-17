@@ -87,5 +87,10 @@ reconstructed and aligned maps, while interpreting spatial relations from the
 <br>
 
 ---
+## 📦 Release Status
+
+- [ ] 💻 Source Code
+- [ ] 📚 CoQuad-Ref Dataset
+- [ ] 🧠 Pretrained Models
 
 
