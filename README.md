@@ -1,5 +1,5 @@
 <h1 align="center">
-  🤖 CoRef-GS
+  🤖 𝘾𝙤𝙍𝙚𝙛-𝙂𝙎
 </h1>
 
 <h3 align="center">
