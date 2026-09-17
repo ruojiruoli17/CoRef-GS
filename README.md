@@ -38,7 +38,7 @@ viewpoint**.
 <br>
 
 <p align="center">
-  <img src="assets/overall.png" width="95%">
+  <img src="assets/overall.pdf" width="95%">
 </p>
 
 <p align="center">
@@ -107,7 +107,7 @@ or the **aligned cooperative map**.
 <br>
 
 <p align="center">
-  <img src="assets/pipeline.png" width="98%">
+  <img src="assets/pipeline.pdf" width="98%">
 </p>
 
 <p align="center">
