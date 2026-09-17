@@ -1,55 +1,101 @@
-<h1 align="center">
-  🤖 𝘾𝙤𝙍𝙚𝙛-𝙂𝙎
-</h1>
+<div align="center">
 
-<h3 align="center">
-  Cooperative Referring Gaussian Splatting for Multi-Agent Scene Understanding
-</h3>
+# 🤖✨ 𝘾𝙤𝙍𝙚𝙛-𝙂𝙎 ✨🤖
 
-<p align="center">
-  <b>Multi-Agent 3D Gaussian Splatting · Cooperative Referring · Open-Vocabulary Scene Understanding</b>
-</p>
+### Cooperative Referring Gaussian Splatting for Multi-Agent Scene Understanding
 
-<p align="center">
-  🚧 <b>Code and dataset are coming soon.</b>
-</p>
+<br>
+
+![3DGS](https://img.shields.io/badge/3D_Gaussian_Splatting-3DGS-blueviolet?style=for-the-badge)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent-Robotics-orange?style=for-the-badge)
+![Language](https://img.shields.io/badge/Open--Vocabulary-Grounding-success?style=for-the-badge)
+
+<br>
+
+**Cooperative language-grounded scene understanding over independently reconstructed Gaussian maps.**
+
+<br>
+
+🚧 **Code · Dataset · Pretrained Models — Coming Soon**
+
+</div>
+
+<br>
 
 ---
 
 ## 🌟 Overview
 
-**CoRef-GS** is a cooperative referring scene understanding framework for
-multi-agent robotic systems based on **3D Gaussian Splatting**.
+**CoRef-GS** enables multiple robots to independently construct local semantic
+Gaussian maps and integrate them into a shared representation for
+**cooperative referring scene understanding**.
 
-Multiple robots independently construct local semantic Gaussian maps from
-complementary observations. CoRef-GS aligns and integrates these maps into a
-shared representation, enabling language-grounded referring from the viewpoint
-of the querying robot.
+It preserves language-grounded referring ability across independently
+reconstructed and aligned maps, while interpreting spatial relations from the
+**querying robot's viewpoint**.
 
-> 🗺️ **Local Mapping** → 🔗 **Cross-Agent Alignment** → 🎯 **Cooperative Referring**
+<br>
+
+<div align="center">
+  <img src="assets/overall.png" width="96%">
+</div>
 
 <p align="center">
-  <img src="assets/overall.png" width="95%">
+  <sub>
+    <b>Figure 1.</b> Overview of CoRef-GS for cooperative multi-agent referring scene understanding.
+  </sub>
 </p>
 
-<p align="center">
-  <i>Figure 1. Overview of CoRef-GS.</i>
-</p>
+<br>
+
+<div align="center">
+
+### 🛰️ Perceive &nbsp; → &nbsp; 🗺️ Align &nbsp; → &nbsp; 🔗 Fuse &nbsp; → &nbsp; 🎯 Refer
+
+</div>
+
+<br>
 
 ---
 
-<p align="center">
+## 🧩 Framework
+
+<div align="center">
   <img src="assets/pipeline.png" width="98%">
-</p>
+</div>
 
 <p align="center">
-  <i>Figure 2. Overall framework of CoRef-GS.</i>
+  <sub>
+    <b>Figure 2.</b> Overall framework of CoRef-GS.
+  </sub>
 </p>
+
+<br>
 
 ---
 
-## 📦 Release
+<div align="center">
 
-- [ ] 💻 Source code
-- [ ] 📚 CoQuad-Ref Dataset
-- [ ] 🧠 Pretrained models
+### 📦 Release Status
+
+`💻 Code — Coming Soon` &nbsp;&nbsp; · &nbsp;&nbsp;
+`📚 CoQuad-Ref — Coming Soon` &nbsp;&nbsp; · &nbsp;&nbsp;
+`🧠 Models — Coming Soon`
+
+</div>
+
+<br>
+
+---
+
+## 📖 Citation
+
+If you find **CoRef-GS** useful for your research, please consider citing our work:
+
+```bibtex
+@article{corefgs2027,
+  title  = {CoRef-GS: Cooperative Referring Gaussian Splatting
+            for Multi-Agent Scene Understanding},
+  author = {Anonymous},
+  year   = {2027}
+}
