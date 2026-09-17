@@ -88,14 +88,4 @@ reconstructed and aligned maps, while interpreting spatial relations from the
 
 ---
 
-## 📖 Citation
 
-If you find **CoRef-GS** useful for your research, please consider citing our work:
-
-```bibtex
-@article{corefgs2027,
-  title  = {CoRef-GS: Cooperative Referring Gaussian Splatting
-            for Multi-Agent Scene Understanding},
-  author = {Anonymous},
-  year   = {2027}
-}
