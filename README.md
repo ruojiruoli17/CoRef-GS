@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 <h1 align="center">
-  🤖 &nbsp; CoRef-GS &nbsp; 🤖
+  🤖✨ &nbsp; 𝘾𝙤𝙍𝙚𝙛-𝙂𝙎 &nbsp; ✨🤖
 </h1>
 
 <h3 align="center">
@@ -28,6 +28,7 @@
 <p align="center">
   🚧 <b>Code · Dataset · Pretrained Models — Coming Soon</b>
 </p>
+
 
 <a id="overview"></a>
 
