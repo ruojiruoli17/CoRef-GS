@@ -1,96 +1,72 @@
-<div align="center">
+<a id="top"></a>
 
-# 🤖✨ 𝘾𝙤𝙍𝙚𝙛-𝙂𝙎 ✨🤖
+<h1 align="center">
+  🤖 &nbsp; CoRef-GS &nbsp; 🤖
+</h1>
 
-### Cooperative Referring Gaussian Splatting for Multi-Agent Scene Understanding
+<h3 align="center">
+  Cooperative Referring Gaussian Splatting<br>
+  for Multi-Agent Scene Understanding
+</h3>
 
-<br>
+<p align="center">
+  <em>Cooperative language-grounded scene understanding over independently reconstructed Gaussian maps.</em>
+</p>
 
-![3DGS](https://img.shields.io/badge/3D_Gaussian_Splatting-3DGS-blueviolet?style=for-the-badge)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent-Robotics-orange?style=for-the-badge)
-![Language](https://img.shields.io/badge/Open--Vocabulary-Grounding-success?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/3D_Gaussian_Splatting-3DGS-8A63D2?style=for-the-badge" alt="3D Gaussian Splatting">
+  <img src="https://img.shields.io/badge/Multi--Agent-Robotics-E67E22?style=for-the-badge" alt="Multi-Agent Robotics">
+  <img src="https://img.shields.io/badge/Open--Vocabulary-Grounding-2EA44F?style=for-the-badge" alt="Open-Vocabulary Grounding">
+</p>
 
-<br>
+<p align="center">
+  <a href="#overview"><b>🌟 Overview</b></a> &nbsp; · &nbsp;
+  <a href="#framework"><b>🧩 Framework</b></a> &nbsp; · &nbsp;
+  <a href="#release-status"><b>🚀 Release Status</b></a>
+</p>
 
-**Cooperative language-grounded scene understanding over independently reconstructed Gaussian maps.**
+<p align="center">
+  🚧 <b>Code · Dataset · Pretrained Models — Coming Soon</b>
+</p>
 
-<br>
-
-🚧 **Code · Dataset · Pretrained Models — Coming Soon**
-
-</div>
-
-<br>
-
----
+<a id="overview"></a>
 
 ## 🌟 Overview
 
-**CoRef-GS** enables multiple robots to independently construct local semantic
-Gaussian maps and integrate them into a shared representation for
-**cooperative referring scene understanding**.
+**CoRef-GS** enables multiple robots to independently construct local semantic Gaussian maps and integrate them into a shared representation for **cooperative referring scene understanding**.
 
-It preserves language-grounded referring ability across independently
-reconstructed and aligned maps, while interpreting spatial relations from the
-**querying robot's viewpoint**.
-
-<br>
-
-<div align="center">
-  <img src="assets/overall.png" width="96%">
-</div>
+It preserves language-grounded referring ability across independently reconstructed and aligned maps, while interpreting spatial relations from the **querying robot's viewpoint**.
 
 <p align="center">
-  <sub>
-    <b>Figure 1.</b> Overview of CoRef-GS for cooperative multi-agent referring scene understanding.
-  </sub>
+  <img src="assets/overall.png" alt="Overview of CoRef-GS" width="100%">
 </p>
 
-<br>
+<p align="center">
+  <em>Overview of CoRef-GS for cooperative multi-agent referring scene understanding.</em>
+</p>
 
-<div align="center">
+<h3 align="center">
+  🛰️ Perceive &nbsp; → &nbsp; 🗺️ Align &nbsp; → &nbsp; 🔗 Fuse &nbsp; → &nbsp; 🎯 Refer
+</h3>
 
-### 🛰️ Perceive &nbsp; → &nbsp; 🗺️ Align &nbsp; → &nbsp; 🔗 Fuse &nbsp; → &nbsp; 🎯 Refer
-
-</div>
-
-<br>
-
----
+<a id="framework"></a>
 
 ## 🧩 Framework
 
-<div align="center">
-  <img src="assets/pipeline.png" width="98%">
-</div>
-
 <p align="center">
-  <sub>
-    <b>Figure 2.</b> Overall framework of CoRef-GS.
-  </sub>
+  <img src="assets/pipeline.png" alt="Overall framework of CoRef-GS" width="100%">
 </p>
 
-<br>
+<p align="center">
+  <em>Overall framework of CoRef-GS.</em>
+</p>
 
----
+<a id="release-status"></a>
 
-<div align="center">
+## 🚀 Release Status
 
-### 📦 Release Status
+> 🚧 Code, dataset, and pretrained models will be made publicly available.
 
-`💻 Code — Coming Soon` &nbsp;&nbsp; · &nbsp;&nbsp;
-`📚 CoQuad-Ref — Coming Soon` &nbsp;&nbsp; · &nbsp;&nbsp;
-`🧠 Models — Coming Soon`
-
-</div>
-
-<br>
-
----
-## 📦 Release Status
-
-- [ ] 💻 Source Code
-- [ ] 📚 CoQuad-Ref Dataset
-- [ ] 🧠 Pretrained Models
-
-
+* [ ] 💻 Release the source code.
+* [ ] 📚 Release the **CoQuad-Ref** dataset.
+* [ ] 🧠 Release the pretrained models.
