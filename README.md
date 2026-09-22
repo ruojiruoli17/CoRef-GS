@@ -21,6 +21,7 @@
 
 <p align="center">
   <a href="#overview"><b>🌟 Overview</b></a> &nbsp; · &nbsp;
+  <a href="#demo"><b>🎬 Demo</b></a> &nbsp; · &nbsp;
   <a href="#framework"><b>🧩 Framework</b></a> &nbsp; · &nbsp;
   <a href="#release-status"><b>🚀 Release Status</b></a>
 </p>
@@ -29,6 +30,7 @@
   🚧 <b>Code · Dataset · Pretrained Models — Coming Soon</b>
 </p>
 
+---
 
 <a id="overview"></a>
 
@@ -50,6 +52,33 @@ It preserves language-grounded referring ability across independently reconstruc
   🛰️ Perceive &nbsp; → &nbsp; 🗺️ Align &nbsp; → &nbsp; 🔗 Fuse &nbsp; → &nbsp; 🎯 Refer
 </h3>
 
+---
+
+<a id="demo"></a>
+
+## 🎬 CoRef-GS in Action
+
+<p align="center">
+  <a href="assets/demo.mp4">
+    <img src="assets/demo_preview.gif" alt="CoRef-GS Demo" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <em>
+    A visual overview of the CoQuad-Ref dataset, multi-agent semantic Gaussian mapping,
+    cross-agent map alignment and fusion, and cooperative referring results.
+  </em>
+</p>
+
+<p align="center">
+  <a href="assets/demo.mp4"><b>▶ Watch Full Demo Video</b></a>
+</p>
+
+The demo showcases selected components of **CoRef-GS**, including our real-world and simulated data, the overall model framework, cooperative map construction and fusion, and qualitative referring results across different robot viewpoints.
+
+---
+
 <a id="framework"></a>
 
 ## 🧩 Framework
@@ -62,12 +91,21 @@ It preserves language-grounded referring ability across independently reconstruc
   <em>Overall framework of CoRef-GS.</em>
 </p>
 
+---
+
 <a id="release-status"></a>
 
 ## 🚀 Release Status
 
 > 🚧 Code, dataset, and pretrained models will be made publicly available.
 
+* [x] 🎬 Release the **CoRef-GS demo video**.
 * [ ] 💻 Release the source code.
 * [ ] 📚 Release the **CoQuad-Ref** dataset.
 * [ ] 🧠 Release the pretrained models.
+
+---
+
+<p align="center">
+  <a href="#top">⬆ Back to Top</a>
+</p>
